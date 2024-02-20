@@ -1,0 +1,34 @@
+# Dependency directories
+/node_modules
+/target
+/dist
+
+# Build outputs
+/src-tauri/target
+/src-tauri/bin
+/src-tauri/target
+*.app
+*.exe
+*.msi
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+
+# Tauri artifacts
+/src-tauri/tauri.conf.json
+/.tauri
